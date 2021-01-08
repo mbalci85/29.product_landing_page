@@ -1,12 +1,22 @@
-#main {
+body {
+	background-color: rgb(253, 159, 124);
+}
+
+#header {
+	position: fixed;
 	display: flex;
+	justify-content: space-around;
 }
 
 #header-img {
 	width: 75px;
 	height: 75px;
+	display: flex;
 }
 
 #nav-bar {
-	position: absolute;
+}
+
+li {
+	list-style: none;
 }
